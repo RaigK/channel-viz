@@ -167,7 +167,8 @@
 									// Define and Render X Axis (Time Values)
 									var xAxis = new Rickshaw.Graph.Axis.Time( {
 										graph: graph,
-										ticksTreatment: ticksTreatment
+										tickFormat: graph.x.tickFormat()
+										//ticksTreatment: ticksTreatment 
 									});
 									xAxis.render();
 
