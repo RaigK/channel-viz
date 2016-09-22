@@ -15,8 +15,8 @@
 	var defaultKey		= 'GGQzl8X-Sd3gHy2r9F64ThTPJm81AA5km_jL8xj3yfM', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [77707], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Kundtanger', // Replaces Xively logo in the header
-		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
+		dataDuration	= '1days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 3600, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
